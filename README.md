@@ -4,6 +4,10 @@ Este projeto é um clone do site do Itaú, desenvolvido usando Next.js e Tailwin
 
 ![ImagemProjeto](./public/imagem-projeto.png)
 
+[Acessar Projeto](https://itau-clone-six.vercel.app/)
+
+[Docker](https://hub.docker.com/repository/docker/havokinho/itau-clone/general)
+
 ## Visão Geral
 
 Este projeto visa replicar a interface do site do Itaú, proporcionando uma experiência visual semelhante. Utilizamos Next.js para desenvolver o código React de maneira mais otimizada, enquanto o Tailwind CSS foi usado para estilizar os componentes da interface de maneira eficiente e customizável.
