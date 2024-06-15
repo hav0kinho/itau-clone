@@ -5,11 +5,12 @@ import { Search } from "./Search";
 
 import Logo from "@/assets/logo.svg";
 import IconUser from "@/assets/icon-user.svg";
+import { Container } from "./Container";
 
 export function Header() {
   return (
     <header className="flex items-center w-full h-20 bg-primary-orange">
-      <div className="flex items-center justify-between w-full max-w-[1246px] px-[15px] mx-auto">
+      <Container>
         <div className="flex flex-1 items-center justify-between">
           <div className="flex items-center gap-14">
             <Image src={Logo} alt="Logo" />
@@ -34,7 +35,7 @@ export function Header() {
           <Image src={IconUser} alt="Icon user" />
           <span className="text-white font-bold">Acessar conta</span>
         </button>
-      </div>
+      </Container>
     </header>
   );
 }
